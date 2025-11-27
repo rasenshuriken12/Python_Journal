@@ -53,7 +53,7 @@ Hello World!
 
 *Code:*
 ```python 
-name = "Tanmay"
+name = "Arya"
 age = 18
 branch, div = "IT", "D"
 print(name, age)
@@ -63,7 +63,7 @@ print (div)
 
 *Output:*
 ```html
-Tanmay 18
+Arya 18
 IT
 D
 ```
@@ -88,8 +88,8 @@ print("Hello, ", name, "! Welcome!")
 
 *Output:*
 ```html
-Enter your name: Dhanesh
-Hello, Dhanesh! Welcome!
+Enter your name: Vidisha
+Hello, Vidisha! Welcome!
 ```
 
 > - Here, input() prompts the user with "Enter your name:" and stores the input 'Dhanesh' of datatype string.
@@ -106,9 +106,9 @@ print("City : ", z)
 
 *Output:*
 ```html 
-Enter name, age, city: Ritesh 19 Mumbai
-Name: Ritesh
-Age : 19
+Enter name, age, city: Vimla 18 Mumbai
+Name: Vimla
+Age : 18
 City : Mumbai
 ```
 
@@ -384,26 +384,26 @@ print(d4)
 
 *Code:*
 ```python
-d5 = {'name' : 'Harsh', 'age' : 19}
+d5 = {'name' : 'Tanmay', 'age' : 18}
 print(d5)
 ```
 
 *Output:*
 ```html
-{'name' : 'Harsh', 'age' : 19}
+{'name' : 'Tanmay', 'age' : 18}
 ```
 
 🔸 Storing different keys
 
 *Code:*
 ```python
-d6 = {"name" : 'Deva', 2025 : "year"}
+d6 = {"name" : 'Dhanesh', 2025 : "year"}
 print(d6)
 ```
 
 *Output:*
 ```html
-{"name" : 'Deva', 2025 : "year"}
+{"name" : 'Dhanesh', 2025 : "year"}
 ```
 
 </details> 
@@ -416,7 +416,7 @@ print(d6)
 *Code:*
 ```python
 keys = ['name', '1', (1,2)]
-values = ['Deva', 'Python', (1,2,4)]
+values = ['Ritesh', 'Python', (1,2,4)]
 
 d1 = dict(zip(keys, values))
 print(d1)
@@ -429,9 +429,9 @@ print(d2['1'])
 
 *Output:*
 ```html
-{'name' : 'Deva', '1' : 'Python', (1,2) : (1,2,4)}
+{'name' : 'Ritesh', '1' : 'Python', (1,2) : (1,2,4)}
 Deva
-{'Deva' : 'name', 'Python' : '1', (1,2,4) : (1,2)}
+{'Ritesh' : 'name', 'Python' : '1', (1,2,4) : (1,2)}
 
 ```
 
@@ -464,27 +464,27 @@ Python
 *Code:*
 ```python
 d = {1 : 'Hello', '2' : 'Good', 3 : 'Morning'}
-d[4] = "Deva"   # New Key-Value pair
+d[4] = "Sampada"   # New Key-Value pair
 print(d)
 ```
 
 *Output:*
 ```html
-{1 : 'Hello', '2' : 'Good', 3 : 'Morning', 4 : 'Deva'}
+{1 : 'Hello', '2' : 'Good', 3 : 'Morning', 4 : 'Sampada'}
 ```
 
 🔸 Updating 
 
 *Code:*
 ```python
-d = {1 : 'Hello', '2' : 'Good', 3 : 'Morning', 4 : 'Deva'}
+d = {1 : 'Hello', '2' : 'Good', 3 : 'Morning', 4 : 'Astha'}
 d[3] = "Evening"   # Updating an existing value
 print(d)
 ```
 
 *Output:*
 ```html
-{1 : 'Hello', '2' : 'Good', 3 : 'Evening', 4 : 'Deva'}
+{1 : 'Hello', '2' : 'Good', 3 : 'Evening', 4 : 'Astha'}
 ```
 
 </details> 
