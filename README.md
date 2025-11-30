@@ -34,7 +34,7 @@
 - Python requires fewer lines of code compared to other programming languages.
 
 
-<br> ![1.](https://img.shields.io/badge/_1._-Print%20a%20string%20using%20print()-34A853?style=for-the-badge&logo=python&logoColor=white)   
+<br> ![1.](https://img.shields.io/badge/_1._-Print%20a%20string%20using%20print()-007396?style=for-the-badge&logo=python&logoColor=white)   
 
 <details>
   <summary>Click to expand 🔻</summary>
@@ -75,7 +75,7 @@ D
 </details>
 
 
-<br> ![2.](https://img.shields.io/badge/_2._-Input%20a%20string%20using%20input()-34A853?style=for-the-badge&logo=python&logoColor=white)   
+<br> ![2.](https://img.shields.io/badge/_2._-Input%20a%20string%20using%20input()-007396?style=for-the-badge&logo=python&logoColor=white)   
 
 <details>
   <summary>Click to expand 🔻</summary>
@@ -117,7 +117,7 @@ City : Mumbai
 
 </details> 
 
-<br> ![3.](https://img.shields.io/badge/_3._-Typecasting-34A853?style=for-the-badge&logo=python&logoColor=white)   
+<br> ![3.](https://img.shields.io/badge/_3._-Typecasting-007396?style=for-the-badge&logo=python&logoColor=white)   
 
 <details>
   <summary>Click to expand 🔻</summary>
@@ -155,7 +155,7 @@ No. of Students: 75.5
 </details> 
 
 
-<br> ![4.](https://img.shields.io/badge/_4._-Comments-34A853?style=for-the-badge&logo=python&logoColor=white)   
+<br> ![4.](https://img.shields.io/badge/_4._-Comments-007396?style=for-the-badge&logo=python&logoColor=white)   
 
 <details>
   <summary>Click to expand 🔻</summary>
@@ -177,7 +177,7 @@ No. of Students: 75.5
 
 </details> 
 
-<br> ![5.](https://img.shields.io/badge/_5._-Indentation-34A853?style=for-the-badge&logo=python&logoColor=white)
+<br> ![5.](https://img.shields.io/badge/_5._-Indentation-007396?style=for-the-badge&logo=python&logoColor=white)
 
 <br> ⊡⁠ Indentation is used to define blocks of code.
 <br> ⊡⁠ All statements with the same level of indentation are considered part of the same block.
@@ -204,7 +204,7 @@ I have indentation.
 
 </details> 
 
-<br> ![6.](https://img.shields.io/badge/_6._-Operators-34A853?style=for-the-badge&logo=python&logoColor=white)   
+<br> ![6.](https://img.shields.io/badge/_6._-Operators-007396?style=for-the-badge&logo=python&logoColor=white)   
 
 ▶️ Arithmetic Operators
 
@@ -248,7 +248,7 @@ I have indentation.
 <table>
 <tr><td>
 
-<br> ![1.](https://img.shields.io/badge/_1._-Numeric-34A853?style=for-the-badge&logo=python&logoColor=white)
+<br> ![1.](https://img.shields.io/badge/_1._-Numeric-007396?style=for-the-badge&logo=python&logoColor=white)
 
 1.1 Integer
 
@@ -310,7 +310,7 @@ print(type(z))
 
 </details> 
 
-<br> ![2.](https://img.shields.io/badge/_2._-Dictionary-34A853?style=for-the-badge&logo=python&logoColor=white)
+<br> ![2.](https://img.shields.io/badge/_2._-Dictionary-007396?style=for-the-badge&logo=python&logoColor=white)
 
 <br> ⊡⁠ Stores key-value pairs.
 <br> ⊡⁠ Mutable (can be changed).
@@ -607,7 +607,7 @@ print(d)
 </details> 
 
 
-<br> ![3.](https://img.shields.io/badge/_3._-Boolean-34A853?style=for-the-badge&logo=python&logoColor=white)
+<br> ![3.](https://img.shields.io/badge/_3._-Boolean-007396?style=for-the-badge&logo=python&logoColor=white)
 
 ▶️ Boolean Examples 
 
@@ -765,7 +765,7 @@ False
 
 </details> 
 
-<br> ![4.](https://img.shields.io/badge/_4._-Sequence-34A853?style=for-the-badge&logo=python&logoColor=white)
+<br> ![4.](https://img.shields.io/badge/_4._-Sequence-007396?style=for-the-badge&logo=python&logoColor=white)
 
 🔵 String
 
@@ -825,7 +825,7 @@ I live in Mumbai, India.
 
 
 
-<br> ![5.](https://img.shields.io/badge/_5._-Set-34A853?style=for-the-badge&logo=python&logoColor=white)
+<br> ![5.](https://img.shields.io/badge/_5._-Set-007396?style=for-the-badge&logo=python&logoColor=white)
 
 <br> ⊡⁠ Stores unordered unique elements.
 <br> ⊡⁠ Mutable (can add/remove items).
@@ -1168,11 +1168,11 @@ frozenset({1, 2, 5, 6})
 <table>
 <tr><td>
 
-<br> ![1.](https://img.shields.io/badge/_1._-Classes_&_Objects-34A853?style=for-the-badge&logo=python&logoColor=white) 
-<br> ![2.](https://img.shields.io/badge/_2._-Polymorphism-34A853?style=for-the-badge&logo=python&logoColor=white) 
-<br> ![3.](https://img.shields.io/badge/_3._-Inheritance-34A853?style=for-the-badge&logo=python&logoColor=white) 
-<br> ![4.](https://img.shields.io/badge/_4._-Abstraction-34A853?style=for-the-badge&logo=python&logoColor=white) 
-<br> ![5.](https://img.shields.io/badge/_5._-Encapsulation-34A853?style=for-the-badge&logo=python&logoColor=white) 
+<br> ![1.](https://img.shields.io/badge/_1._-Classes_&_Objects-007396?style=for-the-badge&logo=python&logoColor=white) 
+<br> ![2.](https://img.shields.io/badge/_2._-Polymorphism-007396?style=for-the-badge&logo=python&logoColor=white) 
+<br> ![3.](https://img.shields.io/badge/_3._-Inheritance-007396?style=for-the-badge&logo=python&logoColor=white) 
+<br> ![4.](https://img.shields.io/badge/_4._-Abstraction-007396?style=for-the-badge&logo=python&logoColor=white) 
+<br> ![5.](https://img.shields.io/badge/_5._-Encapsulation-007396?style=for-the-badge&logo=python&logoColor=white) 
 
 </td></tr>
 </table>
