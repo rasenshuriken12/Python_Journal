@@ -1,4 +1,4 @@
-<table>
+0<table>
 <tr><td>
 
 <br> ![1.](https://img.shields.io/badge/_1._-Numeric-007396?style=for-the-badge&logo=python&logoColor=white)
@@ -221,3 +221,116 @@ print(d)
 {1 : 'Hello', '2' : 'Good', 3 : 'Evening', 4 : 'Astha'}
 ```
 
+▶️ Deleting Dictionary items
+
+<details>
+  <summary>Click to expand 🔻</summary>
+
+🔸 Using del
+
+*Code:*
+```python
+d = {1 : 'Hello', '2' : 'Good', 3 : 'Morning', 4 : 'Shrutika'}
+del d[3]   # Deletes only Keys(LHS).
+print(d)
+```
+
+*Output:*
+```html
+{1 : 'Hello', '2' : 'Good', 4 : 'Shrutika'}
+```
+
+🔸 Using pop()
+
+*Code:*
+```python
+d = {1 : 'Hello', '2' : 'Good', 4 : 'Shrutika'}
+print(d.pop('2'))  # Deletes Keys & returns its Values.
+print(d)
+```
+
+*Output:*
+```html
+Good
+{1 : 'Hello', 4 : 'Shrutika'}
+```
+
+🔸 Using popitem()
+
+*Code:*
+```python
+d = {1 : 'Hello', 4 : 'Shrutika'}
+K, V = d.popitem()
+print(f"Key : {K}, Value : {V}")  # Deletes & returns Last Key-Value pair.
+print(d)
+```
+
+*Output:*
+```html
+Key : 4, Value : Shrutika 
+{1 : 'Hello'}
+```
+
+</details> 
+
+▶️ Iterating through Dictionary items
+
+<details>
+  <summary>Click to expand 🔻</summary>
+  
+*Code:*
+```python
+d = {1 : 'Hello', '2' : 'Good', 'Morning' : 3}
+
+for K in d.keys():
+    print(f"Key : {K}")
+
+print("\n")
+
+for V in d.values():
+    print(f"Value : {V}")
+```
+
+*Output:*
+```html
+Key : 1
+Key : 2
+Key : Morning
+
+Value : Hello
+Value : Good
+Value : 3
+
+```
+
+*Code:*
+```python
+d = {1 : 'Hello', '2' : 'Good', 'Morning' : 3}
+
+for K, V in d.items():
+    print(f"Key, Value : {K}, {V}")
+```
+
+*Output:*
+```html
+Key, Value : 1, Hello
+Key, Value : 2, Good
+Key, Value : Morning, 3
+```
+
+</details> 
+
+▶️ Nested Dictionaries
+
+<details>
+  <summary>Click to expand 🔻</summary>
+
+*Code:*
+```python
+d = {1 : 'Welcome', 2 : 'To', 3 : {'A' : 'Harry', 'B' : 'Potter', 'C' : 'And The', 'D' : "Philosopher's", 'E' : 'Stone'}}
+print(d)
+```
+
+*Output:*
+```html
+{1 : 'Welcome', 2 : 'To
