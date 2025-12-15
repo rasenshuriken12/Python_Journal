@@ -53,17 +53,17 @@ print(type(z))
 
 <br>
 
- ⊡⁠ Stores key-value pairs.
+❇️ Stores key-value pairs.
 
- ⊡⁠ Mutable (can be changed).
+❇️ Mutable (can be changed).
 
- ⊡⁠ No duplicate keys allowed.
+❇️ No duplicate keys allowed.
 
- ⊡⁠ Maintains insertion order (Python 3.7+).
+❇️ Maintains insertion order (Python 3.7+).
 
- ⊡⁠ No indexing, access via keys.
+❇️ No indexing, access via keys.
 
- ⊡⁠ Syntax: { "key" : "value" }
+❇️ Syntax: { "key" : "value" }
 
 <br>
 
