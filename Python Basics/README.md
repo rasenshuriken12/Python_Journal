@@ -5,9 +5,6 @@
   
 <br> ![1.](https://img.shields.io/badge/_1._-Print%20a%20string%20using%20print()-007396?style=for-the-badge&logo=python&logoColor=white)   
 
-<details>
-  <summary>Click to expand 🔻</summary>
-
 *Code:*
 ```python 
 print("Hello World!")
@@ -41,13 +38,8 @@ D
 > - branch and div is stored as 'IT' & 'D' at a time.
 > - 2nd & 3rd print() automatically inserts '\n' and  displays 'IT' & 'D' on the next line.
 
-</details>
-
 
 <br> ![2.](https://img.shields.io/badge/_2._-Input%20a%20string%20using%20input()-007396?style=for-the-badge&logo=python&logoColor=white)   
-
-<details>
-  <summary>Click to expand 🔻</summary>
 
 *Code:*
 ```python 
@@ -83,13 +75,9 @@ City : Mumbai
 
 > - Here, 3 inputs are taken at a time.
 > - Age is taken as a string.
-
-</details> 
+ 
 
 <br> ![3.](https://img.shields.io/badge/_3._-Typecasting-007396?style=for-the-badge&logo=python&logoColor=white)   
-
-<details>
-  <summary>Click to expand 🔻</summary>
   
 *Code:*
 ```python 
@@ -119,14 +107,9 @@ No. of Students: 75.5
 ```
 
 > - Here, the variable m is converted to datatype float.
-
-
-</details> 
+ 
 
 <br> ![4.](https://img.shields.io/badge/_4._-Comments-007396?style=for-the-badge&logo=python&logoColor=white)   
-
-<details>
-  <summary>Click to expand 🔻</summary>
   
 *Code:*
 ```python
@@ -142,17 +125,13 @@ No. of Students: 75.5
 ```
 
 > - Python ignores comments when running the code, but they help people understand what the code is doing.
-
-</details> 
+ 
 
 <br> ![5.](https://img.shields.io/badge/_5._-Indentation-007396?style=for-the-badge&logo=python&logoColor=white)
 
 <br> ⊡⁠ Indentation is used to define blocks of code.
 <br> ⊡⁠ All statements with the same level of indentation are considered part of the same block.
 <br> ⊡⁠ Indentation is achieved using whitespace (spaces or tabs) at the beginning of each line.
-
-<details>
-  <summary>Click to expand 🔻</summary>
 
 *Code:*
 ```python
@@ -169,15 +148,11 @@ I have indentation.
 
 > - The 1st print statement is indented by 4 spaces, so they belong to the if block.
 > - The 2nd print statement is not indented, so it is outside the if block.
-
-</details> 
+ 
 
 <br> ![6.](https://img.shields.io/badge/_6._-Operators-007396?style=for-the-badge&logo=python&logoColor=white)   
 
 ▶️ Arithmetic Operators
-
-<details>
-  <summary>Click to expand 🔻</summary>
 
 | Operator | Description |
 |---|---|
@@ -186,29 +161,17 @@ I have indentation.
 | * | Multiplies 2 no.s |
 | ** | Exponential of 2 no.s |
 | / | Quotient - Divides 2 no.s |
-| % | Remainder - Divides 2 no.s(Modulo) |
-
-</details> 
+| % | Remainder - Divides 2 no.s(Modulo) | 
 
 ▶️ Relational Operators
 
-<details>
-  <summary>Click to expand 🔻</summary>
-
 | Operator | Description |
-|---|---|
-
-</details> 
+|---|---| 
 
 ▶️ Boolean Operators
 
-<details>
-  <summary>Click to expand 🔻</summary>
-
 | Operator | Description |
-|---|---|
-
-</details> 
+|---|---| 
 
 </td></tr>
 </table>
