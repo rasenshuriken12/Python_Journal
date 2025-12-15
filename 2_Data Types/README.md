@@ -51,12 +51,21 @@ print(type(z))
  
 <br> ![2.](https://img.shields.io/badge/_2._-Dictionary-007396?style=for-the-badge&logo=python&logoColor=white)
 
-<br> ⊡⁠ Stores key-value pairs.
-<br> ⊡⁠ Mutable (can be changed).
-<br> ⊡⁠ No duplicate keys allowed.
-<br> ⊡⁠ Maintains insertion order (Python 3.7+).
-<br> ⊡⁠ No indexing, access via keys.
-<br> ⊡⁠ Syntax: { "key" : "value" }
+<br>
+
+ ⊡⁠ Stores key-value pairs.
+
+ ⊡⁠ Mutable (can be changed).
+
+ ⊡⁠ No duplicate keys allowed.
+
+ ⊡⁠ Maintains insertion order (Python 3.7+).
+
+ ⊡⁠ No indexing, access via keys.
+
+ ⊡⁠ Syntax: { "key" : "value" }
+
+<br>
 
 ▶️ Creating a Dictionary 
 
