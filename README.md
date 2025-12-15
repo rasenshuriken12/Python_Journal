@@ -5,7 +5,7 @@
 
 ---
 
-# Python_Basics
+# Python 
 
 <table>
 <tr><td>
@@ -17,73 +17,13 @@
 - Interpreted Language ( Code executes line-by-line at runtime, Slow execution).  
 - Python requires fewer lines of code compared to other programming languages.
 
+# Python_Basics
 
 # Data Types
 
-<table>
-<tr><td>
+</td></tr>
+</table>
 
-<br> ![1.](https://img.shields.io/badge/_1._-Numeric-007396?style=for-the-badge&logo=python&logoColor=white)
-
-1.1 Integer
-
-<details>
-  <summary>Click to expand 🔻</summary>
-
-*Code:*
-```python
-x = int(1)
-print(x)
-print(type(x))
-```
-
-*Output:*
-```html
-1
-<class 'int'>
-```
-
-</details>
-
-1.2 Float 
-
-<details>
-  <summary>Click to expand 🔻</summary>
-
-*Code:*
-```python
-y = float(2)
-print(y)
-print(type(y))
-```
-
-*Output:*
-```html
-2.0
-<class 'float'>
-```
-
-</details> 
-
-1.3 Complex
-
-<details>
-  <summary>Click to expand 🔻</summary>
-
-*Code:*
-```python
-z = complex(1, 2)
-print(z)
-print(type(z))
-```
-
-*Output:*
-```html
-1 + 2j
-<class 'complex'>
-```
-
-</details> 
 
 <br> ![2.](https://img.shields.io/badge/_2._-Dictionary-007396?style=for-the-badge&logo=python&logoColor=white)
 
