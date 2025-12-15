@@ -223,9 +223,6 @@ print(d)
 
 ▶️ Deleting Dictionary items
 
-<details>
-  <summary>Click to expand 🔻</summary>
-
 🔸 Using del
 
 *Code:*
@@ -269,14 +266,9 @@ print(d)
 ```html
 Key : 4, Value : Shrutika 
 {1 : 'Hello'}
-```
-
-</details> 
+``` 
 
 ▶️ Iterating through Dictionary items
-
-<details>
-  <summary>Click to expand 🔻</summary>
   
 *Code:*
 ```python
@@ -316,14 +308,9 @@ for K, V in d.items():
 Key, Value : 1, Hello
 Key, Value : 2, Good
 Key, Value : Morning, 3
-```
-
-</details> 
+``` 
 
 ▶️ Nested Dictionaries
-
-<details>
-  <summary>Click to expand 🔻</summary>
 
 *Code:*
 ```python
