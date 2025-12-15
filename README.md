@@ -17,95 +17,14 @@
 - Interpreted Language ( Code executes line-by-line at runtime, Slow execution).  
 - Python requires fewer lines of code compared to other programming languages.
 
-# Python_Basics
+# Python Basics
 
 # Data Types
 
 </td></tr>
 </table>
 
- 
-
-▶️ Accessing Dictionary items
-
-<details>
-  <summary>Click to expand 🔻</summary>
-
-*Code:*
-```python
-keys = ['name', '1', (1,2)]
-values = ['Ritesh', 'Python', (1,2,4)]
-
-d1 = dict(zip(keys, values))
-print(d1)
-print(d1['name'])  # Only Keys(LHS) can be used to access items.
-
-d2 = dict(zip(values, keys))
-print(d2)
-print(d2['1'])
-```
-
-*Output:*
-```html
-{'name' : 'Ritesh', '1' : 'Python', (1,2) : (1,2,4)}
-Deva
-{'Ritesh' : 'name', 'Python' : '1', (1,2,4) : (1,2)}
-
-```
-
-🔸 Using get()
-
-*Code:*
-```python
-d = {'name' : 'Deva', 1 : 'Python', (1,2) : [1,2,4]}
-print(d.get("name"))  # Only keys can be used to access items.
-print(d.get(1))
-print(d.get((1,2)))
-```
-
-*Output:*
-```html
-Deva
-Python
-[1,2,4]
-```
-
-</details> 
-
-▶️ Adding & Updating Dictionary items
-
-<details>
-  <summary>Click to expand 🔻</summary>
-
-🔸 Adding 
-
-*Code:*
-```python
-d = {1 : 'Hello', '2' : 'Good', 3 : 'Morning'}
-d[4] = "Sampada"   # New Key-Value pair
-print(d)
-```
-
-*Output:*
-```html
-{1 : 'Hello', '2' : 'Good', 3 : 'Morning', 4 : 'Sampada'}
-```
-
-🔸 Updating 
-
-*Code:*
-```python
-d = {1 : 'Hello', '2' : 'Good', 3 : 'Morning', 4 : 'Astha'}
-d[3] = "Evening"   # Updating an existing value
-print(d)
-```
-
-*Output:*
-```html
-{1 : 'Hello', '2' : 'Good', 3 : 'Evening', 4 : 'Astha'}
-```
-
-</details> 
+  
 
 
 ▶️ Deleting Dictionary items
