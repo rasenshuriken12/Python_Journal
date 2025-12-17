@@ -1,4 +1,4 @@
-0<table>
+<table>
 <tr><td>
 
 <br> ![1.](https://img.shields.io/badge/_1._-Numeric-007396?style=for-the-badge&logo=python&logoColor=white)
@@ -320,4 +320,147 @@ print(d)
 
 *Output:*
 ```html
-{1 : 'Welcome', 2 : 'To
+{1 : 'Welcome', 2 : 'To', 3 : {'A' : 'Harry', 'B' : 'Potter', 'C' : 'And The', 'D' : "Philosopher's", 'E' : 'Stone'}}
+```
+ 
+<br> ![3.](https://img.shields.io/badge/_3._-Boolean-007396?style=for-the-badge&logo=python&logoColor=white)
+
+▶️ Boolean Examples 
+
+*Code:*
+```python
+x = {}   # empty mapping 
+print(bool(x))
+y = ()   # empty sequence
+print(bool(y))
+```
+
+*Output:*
+```html
+False
+False
+```
+
+*Code:*
+```python
+x = None
+print(bool(x))
+y = 0.0
+print(bool(y))
+```
+
+*Output:*
+```html
+False
+False
+```
+
+*Code:*
+```python
+x = 1
+print(bool(x))
+y = - 1.5
+print(bool(y))
+```
+
+*Output:*
+```html
+True
+True
+```
+
+*Code:*
+```python
+x = 'Hello'   # non empty string
+print(bool(x))
+```
+
+*Output:*
+```html
+True
+```
+ 
+▶️ Boolean Operators 
+
+🔸 OR & AND operator 
+
+*Code:*
+```python
+A, B = True, False
+print(A or B)   # True - If any one variable is True.
+print(A and B)  # True - Iff both variables are True.
+```
+
+*Output:*
+```html
+True
+False
+```
+
+*Logic:*
+|   A   |   B   |  OR   |  AND  |
+|-------|-------|-------|-------|
+| True  | True  | True  | True  |
+| True  | False | True  | False |
+| False | True  | True  | False |
+| False | False | False | False |
+
+🔸 NOT Operator
+
+*Code:*
+```python
+A, B = True, False
+print(not A)   # True - If variable is False.
+print(not B)
+```
+
+*Output:*
+```html
+False
+True
+```
+
+🔸 Equivalent & Not equivalent Operator
+
+*Code:*
+```python
+A, B = True, False
+print(A == B)   # True - Iff both variables have same value.
+print(A != B)   # True - Iff both variables don't have same value.
+```
+
+*Output:*
+```html
+False
+True
+```
+🔸 is Operator
+
+*Code:*
+```python
+A, B = 5, 5
+print(A is B)   # True - if both variables refer to the same value in memory. 
+```
+
+*Output:*
+```html
+True
+```
+
+> - `==` & `is` operator work differently. `==` focuses on same values while `is` focuses on values at same Memory location.
+
+🔸 in Operator
+
+*Code:*
+```python
+fruits = ["apple", "banana", "cherry"]
+print("banana" in fruits)  
+print("orange" in fruits)
+```
+
+*Output:*
+```html
+True
+False
+```
+> - It checks if a value exists within a sequence (like a list, tuple, string, or range).
