@@ -160,6 +160,8 @@ I have indentation.
 
 ❇️ UNARY Operators
 
+❇️ BINARY Operators 
+
 ▶️ Arithmetic Operators
 
 - Used for mathematical calculations.
@@ -171,13 +173,39 @@ I have indentation.
 | * | Multiplies 2 no.s |
 | ** | Exponential of 2 no.s |
 | / | Quotient - Divides 2 no.s |
-| % | Remainder - Divides 2 no.s(Modulo) | 
+| % | Remainder - Divides 2 no.s(Modulo) |
+| // | Floor Division - Rounds to whole no. |
+
+*Code:*
+```python
+a = 10
+b = 3
+
+print("Addition:", a + b)        
+print("Subtraction:", a - b)     
+print("Multiplication:", a * b)  
+print("Division:", a / b)        
+print("Floor Division:", a // b)   # rounds down
+print("Modulus:", a % b)           # remainder
+print("Exponentiation:", a ** b)   # 10³
+```
+
+*Output:*
+```html
+Addition: 13
+Subtraction: 7
+Multiplication: 30
+Division: 3.33
+Floor Division: 3
+Modulus: 1
+Exponentiation: 1000
+```
+
+
 
 ▶️ Logocal Operators
 
 ▶️ Bitwise Operators
-
-❇️ BINARY Operators 
 
 ▶️ Assignment Operators
 
