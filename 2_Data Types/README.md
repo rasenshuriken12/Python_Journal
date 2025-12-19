@@ -606,6 +606,211 @@ pint(set2)
 > - Here, update() is used to add multiple items.
 > - Only 6 is added, bcoz 5 is already present and Set doesn't allow Duplicates.
 
+▶️ Removing items from a set
+
+🔸 Using remove()
+
+*Code:*
+```python
+set1 = {1, 2, 3, 4, 5}
+set1.remove(3)
+print(set1)
+
+set1.remove(7)
+print(set1)
+```
+
+*Output:*
+```html
+{1, 2, 4, 5}
+Traceback (most recent call last):
+  File "/home/main.py", line 5, in <module>
+    set1.remove(7)
+    ~~~~~~~~~~~^^^
+KeyError: 7
+```
+
+> - Here, remove() is used to remove only a single item.
+> - It raises an error when an element is removed that does not exist.
+
+🔸 Using discard()
+
+*Code:*
+```python
+set1 = {1, 2, 3, 4, 5}
+set1.discard(3)
+print(set1)
+
+set1.discard(7)
+print(set1)    # No Errors raised
+```
+
+*Output:*
+```html
+{1, 2, 4, 5}
+{1, 2, 4, 5}
+```
+
+> - Here, discard() is used to discard only a single item.
+> - It doesn't raise an error when an element is discarded that does not exist.
+
+🔸 Using pop()
+
+*Code:*
+```python
+set1 = {1, 2, 3, 4, 5}
+val = set1.pop()
+print(val)
+print(set1)
+```
+
+*Output:*
+```html
+{2, 3, 4, 5}
+```
+
+> - Here, pop() is used to pop & return any random item.
+
+🔸 Using clear()
+
+*Code:*
+```python
+set1 = {1, 2, 3, 4, 5}
+set1.clear()
+print(set1)
+```
+
+*Output:*
+```html
+set()
+```
+
+> - Here, pop() is used to pop all items from a set.
+
+🔵 Frozenset
+
+<br> ❇️ Same as a set(), but frozenset() are Immutable i.e its elements cannot be modified.
+<br> ❇️⁠ It accepts iterable objects as input parameter.
+<br> ❇️ Syntax : frozenset(iterable_obj_name)
+
+▶️ Converting a Dictionary to Frozenset
+
+*Code:*
+```python
+d = {"name" : "Devaratha", "age" : 19}
+print(frozenset(d))
+```
+
+*Output:*
+```html
+frozenset({'age', 'name'})
+```
+
+▶️ Converting a List to Frozenset
+
+*Code:*
+```python
+l = ["Hello", "Good", "Morning"]
+print(frozenset(l))
+```
+
+*Output:*
+```html
+frozenset({'Good', 'Hello', 'Morning'})
+```
+
+▶️ Converting a Tuple to Frozenset
+
+*Code:*
+```python
+t = ()   # Empty Tuple
+print(frozenset(t))
+```
+
+*Output:*
+```html
+frozenset()
+```
+
+▶️ Frozenset / Set Operations 
+
+🔸 Copy
+
+*Code:*
+```python
+a = frozenset([1, 2, 3, 4])
+b = frozenset([3, 4, 5, 6])
+c = a.copy()
+print(c)
+```
+
+*Output:*
+```html
+frozenset({1, 2, 3, 4})
+```
+
+🔸 Union
+
+*Code:*
+```python
+a = frozenset([1, 2, 3, 4])
+b = frozenset([3, 4, 5, 6])
+u = a.union(b)
+print(u)
+```
+
+*Output:*
+```html
+frozenset({1, 2, 3, 4, 5, 6})
+```
+
+🔸 Intersection 
+
+*Code:*
+```python
+a = frozenset([1, 2, 3, 4])
+b = frozenset([3, 4, 5, 6])
+i = a.intersection(b)
+print(i)
+```
+
+*Output:*
+```html
+frozenset({3, 4})
+```
+
+🔸 Difference 
+
+*Code:*
+```python
+a = frozenset([1, 2, 3, 4])
+b = frozenset([3, 4, 5, 6])
+d = a.difference(b)
+print(d)
+```
+
+*Output:*
+```html
+frozenset({1, 2})
+```
+
+🔸 Symmetric Difference 
+
+*Code:*
+```python
+a = frozenset([1, 2, 3, 4])
+b = frozenset([3, 4, 5, 6])
+u = a.symmetric_difference(b)
+print(u)
+```
+
+*Output:*
+```html
+frozenset({1, 2, 5, 6})
+```
+
+</td></tr>
+</table>
 
 
 
