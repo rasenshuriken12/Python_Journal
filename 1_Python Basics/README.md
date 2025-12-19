@@ -129,9 +129,15 @@ No. of Students: 75.5
 
 <br> ![5.](https://img.shields.io/badge/_5._-Indentation-007396?style=for-the-badge&logo=python&logoColor=white)
 
-<br> ⊡⁠ Indentation is used to define blocks of code.
-<br> ⊡⁠ All statements with the same level of indentation are considered part of the same block.
-<br> ⊡⁠ Indentation is achieved using whitespace (spaces or tabs) at the beginning of each line.
+<br> 
+
+❇️ Indentation is used to define blocks of code.
+
+❇️ All statements with the same level of indentation are considered part of the same block.
+
+❇️ Indentation is achieved using whitespace (spaces or tabs) at the beginning of each line.
+
+<br>
 
 *Code:*
 ```python
