@@ -253,6 +253,39 @@ String comparison: True
 
 ▶️ Logocal Operators
 
+|   a   |   b   | a AND b | a OR b | NOT a | NOT b | 
+|---|---|---|---|---|---|
+| True  | True  |   True  |  True  | False | False |
+| True  | False |  False  |  True  | False | True  |
+| False | True  |  False  |  True  | True  | False |
+| False | False |  False  | False  | True  | True  |
+
+*Code:*
+```python
+age = 25
+has_license = True
+
+# AND - Both must be True
+can_drive = age >= 18 and has_license
+print("Can drive?", can_drive)
+
+# OR - At least one must be True
+has_discount = age < 12 or age >= 60
+print("Has discount?", has_discount)  
+
+# NOT - Inverts the boolean
+is_adult = not (age < 18)
+print("Is adult?", is_adult)  
+```
+
+*Output:*
+```html
+Can drive? True
+Has discount? False
+Is adult? True
+```
+
+
 ▶️ Bitwise Operators
 
 ▶️ Assignment Operators
