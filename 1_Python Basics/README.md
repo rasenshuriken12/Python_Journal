@@ -152,6 +152,8 @@ I have indentation.
 
 <br> ![6.](https://img.shields.io/badge/_6._-Operators-007396?style=for-the-badge&logo=python&logoColor=white)   
 
+❇️ UNARY Operators
+
 ▶️ Arithmetic Operators
 
 - Used for mathematical calculations.
@@ -192,6 +194,10 @@ I have indentation.
 | < | Less than | 
 | >= | Greater or equal | 
 | <= | Less or equal | 
+
+❇️ BINARY Operators 
+
+❇️ TERNARY Operators
 
 ▶️ Boolean Operators
 
