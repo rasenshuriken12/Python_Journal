@@ -415,20 +415,66 @@ print(f"{num} is even?", (num & 1) == 0)
 15 is even? False
 ```
 
-print("-" * 40)
-
 ❇️ TERNARY Operators
 
-▶️ Boolean Operators
+*Code:*
+```python
+age = 20
+status = "adult" if age >= 18 else "minor"
+print(f"Age {age}: {status}") 
 
-| Operator | Description |
-|---|---|
+# Equivalent to:
+if age >= 18:
+    status = "adult"
+else:
+    status = "minor"
+```
 
-▶️ Boolean Operators
+*Output:*
+```html
+Age 20: adult
+```
 
-▶️ Boolean Operators
+*Code:*
+```python
+# PEMDAS: Parentheses, Exponents, Multiplication/Division, Addition/Subtraction
+result = 2 + 3 * 4      # 14, not 20
+print("2 + 3 * 4 =", result)
 
-▶️ Boolean Operators
+# Use parentheses to control order
+result = (2 + 3) * 4    # 20
+print("(2 + 3) * 4 =", result)
+
+''' Full precedence (highest to lowest):
+1. Parentheses: ()
+2. Exponentiation: **
+3. Unary: +x, -x, ~x
+4. Multiplication/Division/Modulo: *, /, //, %
+5. Addition/Subtraction: +, -
+6. Bitwise shifts: <<, >>
+7. Bitwise AND: &
+8. Bitwise XOR: ^
+9. Bitwise OR: |
+10. Comparisons: ==, !=, >, <, >=, <=
+11. Identity: is, is not
+12. Membership: in, not in
+13. Logical NOT: not
+14. Logical AND: and
+15. Logical OR: or
+'''
+
+# Complex example
+result = 5 + 2 * 3 ** 2 - 4 / 2
+print("5 + 2 * 3 ** 2 - 4 / 2 =", result)
+# Steps: 3**2=9, 2*9=18, 4/2=2, 5+18-2=21
+```
+
+*Output:*
+```html
+2 + 3 * 4 = 14
+(2 + 3) * 4 = 20
+5 + 2 * 3 ** 2 - 4 / 2 = 21
+```
 
 </td></tr>
 </table>
