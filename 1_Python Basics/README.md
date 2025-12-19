@@ -201,6 +201,54 @@ Modulus: 1
 Exponentiation: 1000
 ```
 
+▶️ Comparison (Relational) Operators
+
+- Used to compare values → result is True / False.
+
+| Operator | Description |
+|---|---| 
+| == | Equal to	| 
+| != | Not equal |
+| > | Greater than |
+| < | Less than | 
+| >= | Greater or equal | 
+| <= | Less or equal | 
+
+*Code:*
+```python
+x = 10
+y = 5
+
+print("Equal:", x == y)           
+print("Not equal:", x != y)       
+print("Greater than:", x > y)     
+print("Less than:", x < y)        
+print("Greater or equal:", x >= y)
+print("Less or equal:", x <= y)   
+```
+
+*Output:*
+```html
+Equal: False
+Not equal: True
+Greater than: True
+Less than: False
+Greater or equal: True
+Less or equal: False
+String comparison: True
+```
+
+- Can compare strings too
+
+*Code:*
+```python
+print("String comparison:", "apple" < "banana") 
+```
+
+*Output:*
+```html
+String comparison: True 
+```
 
 
 ▶️ Logocal Operators
@@ -221,19 +269,6 @@ Exponentiation: 1000
 | //= | Floor divide & assign	|
 | %= | Modulus & assign | 
 | **= | Power & assign |
-
-▶️ Relational Operators
-
-- Used to compare values → result is True / False.
-
-| Operator | Description |
-|---|---| 
-| == | Equal to	| 
-| != | Not equal |
-| > | Greater than |
-| < | Less than | 
-| >= | Greater or equal | 
-| <= | Less or equal | 
 
 ❇️ TERNARY Operators
 
