@@ -494,8 +494,7 @@ How are you?
 *Code:*
 ```python
 s1 = """ Hi guys, 
-I am Learning
-Python String."""
+I am Learning Python String."""
 print(s)
 
 s2 = '''Hello Good Morning,
@@ -506,8 +505,7 @@ print(s)
 *Output:*
 ```html
 Hi guys, 
-I am Learning
-Python String.
+I am Learning Python String.
 Hello Good Morning,
 I live in Mumbai, India.
 ``` 
