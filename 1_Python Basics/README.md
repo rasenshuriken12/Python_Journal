@@ -405,7 +405,7 @@ print("'Alice' in person:", "Alice" in person)  # False (checks keys, not values
 | 0 | 1 | 0 | 1 | 1 |
 | 0 | 0 | 0 | 0 | 0 |
 
-Refer [Logic Gates]
+Refer [Logic Gates](https://github.com/rasenshuriken12/DLCOA/blob/main/Logic%20Gates)
 
 *Code:*
 ```python
