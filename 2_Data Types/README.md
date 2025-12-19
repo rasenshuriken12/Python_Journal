@@ -464,3 +464,55 @@ True
 False
 ```
 > - It checks if a value exists within a sequence (like a list, tuple, string, or range).
+
+<br> ![4.](https://img.shields.io/badge/_4._-Sequence-007396?style=for-the-badge&logo=python&logoColor=white)
+
+🔵 String
+
+▶️ Creating a string 
+
+*Code:*
+```python
+string1  = "Hello Good Morning"
+print(string1)
+
+string2  = "How are you?"
+print(string2))
+
+print(type(string1))
+```
+
+*Output:*
+```html
+Hello Good Morning
+How are you?
+<class 'str'>
+```
+
+🔸 Multi Line Strings
+
+*Code:*
+```python
+s1 = """ Hi guys, 
+I am Learning
+Python String."""
+print(s)
+
+s2 = '''Hello Good Morning,
+I live in Mumbai, India.'''
+print(s)
+```
+
+*Output:*
+```html
+Hi guys, 
+I am Learning
+Python String.
+Hello Good Morning,
+I live in Mumbai, India.
+``` 
+
+
+🔵 List
+
+🔵 Tuple
