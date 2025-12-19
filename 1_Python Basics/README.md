@@ -167,6 +167,10 @@ I have indentation.
 | / | Quotient - Divides 2 no.s |
 | % | Remainder - Divides 2 no.s(Modulo) | 
 
+▶️ Logocal Operators
+
+▶️ Boolean Operators
+
 ▶️ Assignment Operators
 
 - Used to assign and update values.
