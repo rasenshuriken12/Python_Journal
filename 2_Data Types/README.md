@@ -526,9 +526,6 @@ I live in Mumbai, India.
 
 ▶️ Creating a set
 
-<details>
-  <summary>Click to expand 🔻</summary>
-
 *Code:*
 ```python
 set1  = set(" Hello Good Morning")
@@ -555,14 +552,9 @@ print(set2)
 {'Hello', True, 10, 52.7}
 ```
 
-> - Output varies as Sets display Unordered elements with No Duplicates.
-
-</details> 
+> - Output varies as Sets display Unordered elements with No Duplicates. 
 
 ▶️ Accessing a Set 
-
-<details>
-  <summary>Click to expand 🔻</summary>
 
 *Code:*
 ```python
@@ -579,12 +571,7 @@ Morning Hello Good
 
 > - Output varies
 
-</details> 
-
 ▶️ Adding items to set
-
-<details>
-  <summary>Click to expand 🔻</summary>
 
 🔸 Using add()
 
@@ -608,7 +595,7 @@ print(set1)
 ```python
 set2 = {1,2,3,4}
 set2.update([5,6])
-print(set2)
+pint(set2)
 ```
 
 *Output:*
