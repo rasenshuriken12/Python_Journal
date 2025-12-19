@@ -253,6 +253,8 @@ String comparison: True
 
 ▶️ Logocal Operators
 
+- Used to combine conditional statements.
+
 |   a   |   b   | a AND b | a OR b | NOT a | NOT b | 
 |---|---|---|---|---|---|
 | True  | True  |   True  |  True  | False | False |
@@ -285,9 +287,6 @@ Has discount? False
 Is adult? True
 ```
 
-
-▶️ Bitwise Operators
-
 ▶️ Assignment Operators
 
 - Used to assign and update values.
@@ -301,7 +300,35 @@ Is adult? True
 | /= | Divide & assign |
 | //= | Floor divide & assign	|
 | %= | Modulus & assign | 
-| **= | Power & assign |
+| **= | Power & assign | 
+
+*Code:*
+
+x = 10  # Basic assignment
+```python
+# Compound assignment operators
+x += 5       # x = x + 5 (now 15)
+x -= 3       # x = x - 3 (now 12)
+x *= 2       # x = x * 2 (now 24)
+x /= 4       # x = x / 4 (now 6.0)
+x //= 2      # x = x // 2 (now 3.0)
+x %= 2       # x = x % 2 (now 1.0)
+x **= 3      # x = x ** 3 (now 1.0)
+
+# Multiple assignment
+a, b, c = 1, 2, 3
+print(a, b, c)      # 1 2 3
+```
+
+*Output:*
+```html
+
+```
+
+
+▶️ Bitwise Operators
+
+
 
 ❇️ TERNARY Operators
 
