@@ -308,7 +308,7 @@ print("Can drive?", can_drive)
 has_discount = age < 12 or age >= 60
 print("Has discount?", has_discount)  
 
-# NOT - Inverts the boolean
+# NOT - Inverts the boolean (Unary Operator)
 is_adult = not (age < 18)
 print("Is adult?", is_adult)  
 ```
@@ -413,7 +413,7 @@ b = 4     # Binary: 0100
 print("AND:", a & b)             # 0 (1010 & 0100 = 0000) - Both must be True
 print("OR:", a | b)              # 14 (1010 | 0100 = 1110) - Atleast one must be True
 print("XOR:", a ^ b)             # 14 (1010 ^ 0100 = 1110) - Anyone must be True
-print("NOT:", ~a)                # -11 (inverts bits) : One's Complement - 0 → 1, 1 → 0
+print("NOT:", ~a)                # -11 (inverts bits) - 0 → 1, 1 → 0  (Unary Operator)
 print("Left shift:", a << 1)     # 20 (1010 → 10100) - Add 0 from RHS
 print("Right shift:", a >> 1)    # 5 (1010 → 0101) - Add 0 from LHS
 ```
