@@ -165,6 +165,8 @@ I have indentation.
 
 ▶️ Relational Operators
 
+- Used to compare values → result is True / False.
+
 | Operator | Description |
 |---|---| 
 | == | Equal to	| 
