@@ -14,9 +14,9 @@
 - Interpreted Language ( Code executes line-by-line at runtime, Slow execution).  
 - Python requires fewer lines of code compared to other programming languages.
 
-# [Python Basics](https://github.com/rasenshuriken12/Python_Journal/tree/869cbd7b9547227a7ae2b87a8dfffc03e7faa530/1_Python%20Basics)
+# 1) [Python Basics](https://github.com/rasenshuriken12/Python_Journal/tree/869cbd7b9547227a7ae2b87a8dfffc03e7faa530/1_Python%20Basics)
 
-# [Data Types](https://github.com/rasenshuriken12/Python_Journal/blob/b61e1fa3ea09c4b5ab00bbbbb1c515365e0c57fb/2_Data%20Types)
+# 2) [Data Types](https://github.com/rasenshuriken12/Python_Journal/blob/b61e1fa3ea09c4b5ab00bbbbb1c515365e0c57fb/2_Data%20Types)
 
 
 
