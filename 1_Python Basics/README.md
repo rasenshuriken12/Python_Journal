@@ -262,7 +262,7 @@ String comparison: True
 ```
 
 
-▶️ Logocal Operators
+▶️ Logical Operators
 
 - Used to combine conditional statements.
 
