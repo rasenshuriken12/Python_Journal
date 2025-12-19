@@ -514,3 +514,111 @@ I live in Mumbai, India.
 🔵 List
 
 🔵 Tuple
+
+
+<br> ![5.](https://img.shields.io/badge/_5._-Set-007396?style=for-the-badge&logo=python&logoColor=white)
+
+<br> ⊡⁠ Stores unordered unique elements.
+<br> ⊡⁠ Mutable (can add/remove items).
+<br> ⊡⁠ No duplicates allowed.
+<br> ⊡⁠ Unordered, so no indexing.
+<br> ⊡⁠ Syntax: { item1, item2, item3 }
+
+▶️ Creating a set
+
+<details>
+  <summary>Click to expand 🔻</summary>
+
+*Code:*
+```python
+set1  = set(" Hello Good Morning")
+print(set1)
+print(type(set1))
+```
+
+*Output:*
+```html
+{'n', 'r', ' ', 'o', 'g', 'i', 'l', 'd', 'G', 'M', 'H', 'e'}
+<class 'set'>
+```
+
+🔸 Heterogeneous Elements
+
+*Code:*
+```python
+set2 = {"Hello", 10, 52.7, True}
+print(set2)
+```
+
+*Output:*
+```html
+{'Hello', True, 10, 52.7}
+```
+
+> - Output varies as Sets display Unordered elements with No Duplicates.
+
+</details> 
+
+▶️ Accessing a Set 
+
+<details>
+  <summary>Click to expand 🔻</summary>
+
+*Code:*
+```python
+set1  = set(["Hello", "Good", "Morning"])
+
+for i in set1:
+    print(i, end=" ")
+```
+
+*Output:*
+```html
+Morning Hello Good
+```
+
+> - Output varies
+
+</details> 
+
+▶️ Adding items to set
+
+<details>
+  <summary>Click to expand 🔻</summary>
+
+🔸 Using add()
+
+*Code:*
+```python
+set1 = {1,2,3,4}
+set1.add(5)
+print(set1)
+```
+
+*Output:*
+```html
+{1, 2, 3, 4, 5,}
+```
+
+> - Here, add() is used to add only a single item.
+
+🔸 Using update()
+
+*Code:*
+```python
+set2 = {1,2,3,4}
+set2.update([5,6])
+print(set2)
+```
+
+*Output:*
+```html
+{1, 2, 3, 4, 5, 6}
+```
+
+> - Here, update() is used to add multiple items.
+> - Only 6 is added, bcoz 5 is already present and Set doesn't allow Duplicates.
+
+
+
+
