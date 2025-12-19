@@ -162,6 +162,20 @@ I have indentation.
 
 - Operators that work on a single operand.
 
+▶️ Arithmetic unary
+
+*Code:*
+```python
+print(-x)      # -5 (negation)
+print(+x)      # 5 (positive)
+print(~x)      # -6 (bitwise NOT)
+```
+
+▶️ Logical unary (not)
+
+▶️ Bitwise unary (~)
+
+
 ❇️ BINARY Operators 
 
 - Operators that work on two operands.
@@ -270,7 +284,7 @@ String comparison: True
 
 - Used to combine conditional statements.
 
-|   a   |   b   | a AND b | a OR b | NOT a | NOT b | 
+|   A   |   B   | A and B | A or B | not A | not B | 
 |---|---|---|---|---|---|
 | True  | True  |   True  |  True  | False | False |
 | True  | False |  False  |  True  | False | True  |
@@ -378,14 +392,7 @@ print("'Alice' in person:", "Alice" in person)  # False (checks keys, not values
 
 - Work on numbers at the binary level.
 
-TRUTH TABLE FOR BITWISE OPERATORS
-
-| a | b | NOT a | NOT b | a AND b | a OR b | a XOR b |
-|---|---|---|---|---|---|---|
-| True  | True  | False | False |   True  |  True  |  False  |
-| True  | False | False | True  |  False  |  True  |   True  |
-| False | True  | True  | False |  False  |  True  |   True  |
-| False | False | True  | True  |  False  | False  |  False  |
+> Truth Table for Bitwise Operators
 
 | a | b | AND | OR | XOR |
 |---|---|---|---|---|
@@ -418,32 +425,6 @@ print(f"{num} is even?", (num & 1) == 0)
 ```html
 15 is even? False
 ```
-
-❇️ TERNARY Operators
-
-- Operators that work on three operands.
-
-▶️ Conditional Operator
-
-*Code:*
-```python
-age = 20
-status = "adult" if age >= 18 else "minor"
-print(f"Age {age}: {status}") 
-
-# Equivalent to:
-if age >= 18:
-    status = "adult"
-else:
-    status = "minor"
-```
-
-*Output:*
-```html
-Age 20: adult
-```
-
----
 
 ▶️ Operator Precedence
 - Determines order of operations.
@@ -490,6 +471,31 @@ print("5 + 2 * 3 ** 2 - 4 / 2 =", result)
 2 + 3 * 4 = 14
 (2 + 3) * 4 = 20
 5 + 2 * 3 ** 2 - 4 / 2 = 21
+```
+
+
+❇️ TERNARY Operators
+
+- Operators that work on three operands.
+
+▶️ Conditional Operator
+
+*Code:*
+```python
+age = 20
+status = "adult" if age >= 18 else "minor"
+print(f"Age {age}: {status}") 
+
+# Equivalent to:
+if age >= 18:
+    status = "adult"
+else:
+    status = "minor"
+```
+
+*Output:*
+```html
+Age 20: adult
 ```
 
 </td></tr>
