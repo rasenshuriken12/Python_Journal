@@ -1,3 +1,5 @@
+# Data Types 
+
 <table>
 <tr><td>
 
