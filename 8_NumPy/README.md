@@ -350,3 +350,51 @@ print(reshaped)
 Reshaped 1D Array : 
 [[1 2 3 4 5 6 7 8 9]]
 ```
+
+
+▶️ Resizing Numpy array
+
+*Code:*
+```python
+import numpy as np
+
+array = np.array([1, 2, 3, 4, 5, 6, 7, 8])
+print(f"Array : {array}")
+
+array.resize(2, 4)  # Permanently reshaped
+print(f"Resized Array : {array}")
+```
+
+*Output:*
+```html
+Array : [ 1 2 3 4 5 6 7 8]
+Resized 2D Array :
+[[ 1  2  3  4]
+ [ 5  6  7  8]]
+```
+
+*Code:*
+```python
+import numpy as np
+
+array = np.array([1, 2, 3, 4, 5, 6, 7, 8])
+print(f"Array : {array}")
+
+array.resize(3, 2, 3)  # Required values 18, existing values 8
+print(f"Resized 3D Array : {array}")
+```
+
+*Output:*
+```html
+Array : [ 1 2 3 4 5 6 7 8]
+Resized 3D Array :
+[[[ 1  2  3]
+  [ 4  5  6]]
+
+ [[ 7  8  0]
+  [ 0  0  0]]
+
+ [[ 0  0  0]
+  [ 0  0  0]]]
+```
+
