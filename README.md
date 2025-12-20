@@ -33,47 +33,11 @@
 
 
 
-▶️ Numpy Array Indexing
-
-🔸 Using 1d Array
-
-*Code:*
-```python
-import numpy as np
-
-arr1d = np.array([10, 20, 30, 40, 50])
-print("Single element access:", arr1d[3])  
-print("Negative indexing:", arr1d[-4])    # Negative indexing
-```
-
-*Output:*
-```html
-Single element access: 40
-Negative indexing: 20
-```
-
-🔸 Using 2d Array
-
-*Code:*
-```python
-import numpy as np
-
-arr2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-print("Multidimensional array access:", arr2d[2, 0])
-```
-
-*Output:*
-```html
-Multidimensional array access: 7
-```
 
 
 
 
 ▶️ Resizing Numpy array
-
-<details>
-  <summary>Click to expand 🔻</summary>
 
 *Code:*
 ```python
