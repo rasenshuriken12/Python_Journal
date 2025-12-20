@@ -180,3 +180,138 @@ print(arr_range)
 
 > - Divides the interval `[start, stop]` into `num` **equally spaced** values.
 > - **Includes the `stop` value** by default.
+
+
+▶️ Numpy Array Slicing 
+
+*Code:*
+```python
+import numpy as np
+
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(arr)
+print("Range1 : ", arr[1:2])
+print("Range2 : ", arr[0:1])
+print("Range3 : ", arr[1:1])
+print("Column slicing : ", arr[:, 1]) # Column
+print("Row slicing : ", arr[2]) # Row
+
+print("\nInteger array indexing : ", arr[[0, 2]])
+
+print("\nElements greater than 5 : ", arr[arr > 5])
+```
+
+*Output:*
+```html
+[[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+Range1 :  [[4 5 6]]
+Range2 :  [[1 2 3]]
+Range3 :  []
+Column slicing :  [2 5 8]
+Row slicing :  [7 8 9]
+
+Integer array indexing :  [[1 2 3]
+ [7 8 9]]
+
+Elements greater than 5 :  [6 7 8 9]
+```
+
+🔸 Modifying Array Elements
+
+*Code:*
+```python
+import numpy as np 
+
+arr = np.array([1, 2, 3, 4, 5])
+arr[1:3] = 5
+print(arr)
+```
+
+*Output:*
+```python
+[ 1 5 5 4 5]
+```
+
+
+▶️ Reshaping Numpy array
+
+🔸 Conversion of 1-D array to 2-D array
+
+*Code:*
+```python
+import numpy as np
+
+array = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
+print(f"Array : {array}")
+
+# converting 1-D array to 2-D array
+reshaped = array.reshape((4, 4))  # rows, columns
+
+print("Reshaped 2D Array : ")
+print(reshaped)
+```
+
+*Output:*
+```html
+Array : [ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16]
+Reshaped 2D Array :
+[[ 1  2  3  4]
+ [ 5  6  7  8]
+ [ 9 10 11 12]
+ [13 14 15 16]]
+```
+
+🔸 Conversion of 1-D array to 3-D array
+*Code:*
+```python
+import numpy as np
+
+array = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
+print(f"Array : {array}")
+
+reshaped = array.reshape((2, 2, 4))  # Ensure 2*2*4 = 16
+
+print("Reshaped 3D Array : ")
+print(reshaped)
+```
+
+*Output:*
+```html
+Array : [ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16]
+Reshaped 3D Array :
+[[[ 1  2  3  4]
+  [ 5  6  7  8]]
+
+ [[ 9 10 11 12]
+  [13 14 15 16]]]
+```
+
+🔸 Conversion of 2-D array to 1-D array
+*Code:*
+```python
+import numpy as np
+
+array = np.array([[1, 2, 3],
+                 [4, 5, 6],
+                 [7, 8, 9]])
+
+print("2D Array : ")
+print(array)
+
+reshaped = array.reshape((9))
+
+print("Reshaped 1D Array : ")
+print(reshaped)
+```
+
+*Output:*
+```html
+2D Array : 
+[[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+Reshaped 1D Array : 
+[[1 2 3 4 5 6 7 8 9]]
+```
