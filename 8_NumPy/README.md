@@ -7,6 +7,8 @@
 - **Tools for integrating C/C++ code**
 - **Random number generation**
 
+❇️ NumPy arrays are similar to Python lists in some ways but are distinct and optimized for numerical and scientific computing.
+
 ▶️ Creating a Numpy Array 
 
 🔸 Creating a 1D array
