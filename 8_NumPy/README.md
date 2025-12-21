@@ -9,6 +9,26 @@
 
 ❇️ NumPy arrays are similar to Python lists in some ways but uses Less Memory and is 50x Faster than Python lists for numerical operations and scientific computing.
 
+🆚 Python Lists vs NumPy Arrays
+
+| Feature	| Python List	| NumPy Array
+|---|---|---|
+| Type	| Built-in Python data structure	| Object from NumPy library |
+| Homogeneity |	Can store mixed data types |	Stores elements of the same data type |
+| Performance	| Slower for numerical computations	| Much faster for numerical operations |
+| Memory Usage	| Uses more memory	| Memory efficient |
+Mathematical Operations	Requires loops	Vectorized operations (no loops)
+Broadcasting	❌ Not supported	✅ Supported
+Multi-dimensional Support	Limited (nested lists)	Native multi-dimensional arrays
+Speed (Large Data)	Poor	Excellent
+Indexing & Slicing	Basic	Advanced slicing & masking
+Use in ML / Data Science	Rarely used	Industry standard
+Dependency	No external library	Requires NumPy
+Example Operation	[1,2,3] + [4,5,6] → concatenation	array([1,2,3]) + array([4,5,6]) → element-wise addition
+
+
+
+
 <br>
 
 ▶️ Creating a Numpy Array 
