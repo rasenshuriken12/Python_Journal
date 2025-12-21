@@ -18,7 +18,7 @@
 | Performance	| Slower for numerical computations	| Much faster for numerical operations |
 | Memory Usage	| Uses more memory (stores Python objects)	| Memory efficient (stores raw data) |
 | Mathematical Operations | Requires loops	| Vectorized operations (no loops) |
-| Creation | list() or [] | np.array() or specialized functions |
+| Creation | list() or [ ] | np.array() or specialized functions |
 | Element Access | Slower (object references) | Faster (direct memory access) |
 | Size Flexibility | Dynamic (easy to append/remove) | Fixed size (costly to resize) |
 | Broadcasting	| Not supported	| Fully Supported |
