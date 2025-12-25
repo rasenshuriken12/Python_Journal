@@ -18,7 +18,7 @@ x = [0, 2, 4, 6, 8]
 y = [0, 4, 16, 36, 64]
 
 # Creating the line chart
-fig, ax = plt.subplots()  
+fig, ax = plt.subplots()     # fig = Figure object (the canvas/window) , ax = Axes object (the actual plot area)
 ax.plot(x, y, marker='o')
 
 # Adding labels and explanation annotations
