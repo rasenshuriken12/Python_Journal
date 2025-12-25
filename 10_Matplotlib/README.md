@@ -38,26 +38,26 @@ import matplotlib.pyplot as plt
 
 # Sample data for the line chart
 months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
-values = [10, 20, 15, 25, 30, 35]
+temp = [10, 20, 15, 25, 30, 35]
 
 # Create figure and axes object (Object-Oriented approach)
 fig, ax = plt.subplots(figsize=(10, 8))  # fig = figure, ax = axes
-ax.plot(months, values, marker='o', color='blue', linestyle='-', linewidth=2, markersize=8)  # linestyle = '-' OR 'solid'
+ax.plot(months, temp, marker='o', color='blue', linestyle='-', linewidth=2, markersize=8)  # linestyle = '-' OR 'solid'
 
 # Add labels and title
 ax.set_xlabel('Months', fontsize=12)
-ax.set_ylabel('Values', fontsize=12)
+ax.set_ylabel('Temperature', fontsize=12)
 ax.set_title('Line Chart with Explanations', fontsize=14, fontweight='bold')
 
 # Add value annotations above each point
-for i, value in enumerate(values):
+for i, value in enumerate(temp):
     ax.text(months[i], value + 1.5, f'{value}', ha='center', fontsize=10, fontweight='bold')
 
 # Add explanatory annotations
 ax.text(2.5, 8, 'Line connects data points over time', ha='center', va='bottom', fontsize=10, color='blue', bbox=dict(boxstyle='round,pad=0.3', facecolor='yellow', alpha=0.3))
 
-ax.text(-0.3, values[0], '← Starting Point', ha='left', va='center', fontsize=10, color='red', fontweight='bold')
-ax.text(5.3, values[-1], 'Ending Point →', ha='right', va='center', fontsize=10, color='red', fontweight='bold')
+ax.text(-0.3, temp[0], '← Starting Point', ha='left', va='center', fontsize=10, color='red', fontweight='bold')
+ax.text(5.3, temp[-1], 'Ending Point →', ha='right', va='center', fontsize=10, color='red', fontweight='bold')
 
 # Add grid
 ax.grid(axis='y', linestyle='--', alpha=0.5)
