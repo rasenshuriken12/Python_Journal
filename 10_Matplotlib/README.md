@@ -37,21 +37,21 @@ plt.show()
 import matplotlib.pyplot as plt
 
 # Sample data for the line chart
-months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
-temp = [50, 60, 55, 65, 70, 80]
+weeks = ['Sun', 'Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat']
+temp = [55, 75, 78, 85, 80, 71, 69, 65]
 
 # Create figure and axes object (Object-Oriented approach)
 fig, ax = plt.subplots(figsize=(10, 8))  # fig = figure, ax = axes
-ax.plot(months, temp, marker='o', color='blue', linestyle='-', linewidth=2, markersize=8)  # linestyle = '-' OR 'solid'
+ax.plot(weeks, temp, marker='o', color='blue', linestyle='-', linewidth=2, markersize=8)  # linestyle = '-' OR 'solid'
 
 # Add labels and title
-ax.set_xlabel('Months', fontsize=12)
+ax.set_xlabel('Weeks', fontsize=12)
 ax.set_ylabel('Temperature', fontsize=12)
 ax.set_title('Temperature in Mumbai', fontsize=14, fontweight='bold')
 
 # Add value annotations above each point
 for i, value in enumerate(temp):
-    ax.text(months[i], value + 1.5, f'{value}', ha='center', fontsize=10, fontweight='bold')
+    ax.text(weeks[i], value + 1.5, f'{value}', ha='center', fontsize=10, fontweight='bold')
 
 # Add explanatory annotations
 ax.text(2.5, 8, 'Line connects data points over time', ha='center', va='bottom', fontsize=10, color='blue', bbox=dict(boxstyle='round,pad=0.3', facecolor='yellow', alpha=0.3))
@@ -66,7 +66,7 @@ ax.grid(axis='y', linestyle='--', alpha=0.5)
 ax.tick_params(axis='both', which='major', labelsize=10)
 
 # Add a legend (though we only have one line)
-ax.legend(['Monthly Values'], loc='upper left')
+ax.legend(['Weekly Temperature'], loc='upper left')
 
 plt.tight_layout()
 plt.show()
