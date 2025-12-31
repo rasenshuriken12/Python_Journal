@@ -79,6 +79,7 @@ print(f"Total elements: {y.size}")
  [4 5 6]]
 Shape: (2, 3)
 2D Array with 2 rows & 3 columns
+Total elements: 6
 ```
 
 🔸 Creating a 3D array (Tensors)
@@ -103,7 +104,9 @@ print(f"Total elements: {z.size}")
 
   [[7 8 9]
    [3 6 9]]]
-Shape: (2, 3, 2)
+Shape: (2, 2, 3)
+3 D Array with  2 depth 2 rows and 3 columns
+Total elements: 12
 ```
 
 🔸 Creating an array of zeros(Zero / Null Matrix)
