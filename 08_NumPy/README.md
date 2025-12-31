@@ -109,6 +109,16 @@ Shape: (2, 2, 3)
 Total elements: 12
 ```
 
+*Analogy:*
+
+3D Array = A BOOK
+- Depth = Page number (0, 1, 2, ...)
+- Row = Line on the page
+- Column = Character position in line
+
+Example: Book with 100 pages, 50 lines per page, 80 characters per line
+Shape: (100, 50, 80)
+
 🔸 Creating an array of zeros(Zero / Null Matrix)
 
 *Code:*
