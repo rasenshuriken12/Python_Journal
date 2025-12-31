@@ -396,18 +396,23 @@ arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
 print(f"Array : {arr}")
 
 arr.resize(2, 4)   # Permanently reshaped. Make a copy to preserve original by arr.copy()
-print(f"Resized Array : {arr}")
+print(f"Resized Array : \n{arr}")
 
-new_arr = np.resize(arr, (4, 4))   # returns new array
-print(f"New Resized Array : {new_arr}")
+new_arr = np.resize(arr, (4, 2))   # returns new array
+print(f"New Resized Array : \n{new_arr}")
 ```
 
-*Output:*
+*Output:
 ```html
 Array : [ 1 2 3 4 5 6 7 8]
 Resized 2D Array :
 [[ 1  2  3  4]
  [ 5  6  7  8]]
+New Resized Array :
+[[1 2]
+ [3 4]
+ [5 6]
+ [7 8]]
 ```
 
 *Code:*
