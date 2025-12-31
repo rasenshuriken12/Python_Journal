@@ -432,6 +432,22 @@ Resized 3D Array :
   [ 0  0  0]]]
 ```
 
+*Code:*
+```python
+# Resize to smaller (truncates)
+arr_small = np.resize(arr, (3,))
+print("\nResized to (3,):", arr_small)
+
+# Resize to larger (repeats data)
+arr_large = np.resize(arr, (12,))
+print("Resized to (12,):", arr_large)  
+```
+
+*Output:*
+```html
+Resized to (3,): [1 2 3]
+Resized to (12,): [1 2 3 4 5 6 1 2 3 4 5 6]
+```
 
 ### ▶️ Stacking Numpy array
 
