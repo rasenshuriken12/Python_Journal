@@ -16,8 +16,8 @@
 | Type	| Built-in Python data structure	| Object from NumPy library |
 | Homogeneity |	Can store mixed data types |	Stores elements of the single data type |
 | Performance	| Slower for numerical computations	| Much faster for numerical operations |
+| Preferred | Shorter sequence of data items | Longer sequence of data items |
 | Memory Usage	| Uses more memory (stores Python objects)	| Memory efficient (stores raw data) |
-| Mathematical Operations | Requires loops	| Vectorized operations (no loops) |
 | Creation | list() or [ ] | np.array() or specialized functions |
 | Element Access | Slower (object references) | Faster (direct memory access) |
 | Size Flexibility | Dynamic (easy to append/remove) | Fixed size (costly to resize) |
@@ -25,6 +25,7 @@
 | Multi-dimensional | Nested lists (inefficient) | Native support (efficient) |
 | Indexing & Slicing	| Basic	| Advanced slicing & masking |
 | Use in Data Science /	ML | Rarely used	| Industry standard |
+| Mathematical Operations | Requires loops to handle arithmetic items	| Directly handles arithmetic items by Vectorized operations (no loops) |
 | Example Operation |	[1,2,3] + [4,5,6] → concatenation	| array([1,2,3]) + array([4,5,6]) → element-wise addition |
 
 
