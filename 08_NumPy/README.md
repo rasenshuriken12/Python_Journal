@@ -535,7 +535,87 @@ print(np.stack((x, y), axis=2))
  [[ 4 10]
   [ 5 11]
   [ 6 12]]]
+```
 
+🔸 Stacking 3D arrays 
+
+*Code:*
+```python
+import numpy as np
+
+x = np.array([[[1, 2], [3, 4]],
+              [[5, 6], [7, 8]]])
+
+y = np.array([[[10, 20], [30, 40]],
+              [[50, 60], [70, 80]]])
+
+print("3D array as Batches: ")
+print(np.stack((x, y), axis=0))
+
+print("\3D array as Planes: ")
+print(np.stack((x, y), axis=1))
+
+print("\n3D array as Rows: ")
+print(np.stack((x, y), axis=2))
+
+print("\n3D array as Columns: ")
+print(np.stack((x, y), axis=3))
+```
+
+*Output:*
+```html
+3D array as Batches:
+[[[[ 1  2]
+   [ 3  4]]
+
+  [[ 5  6]
+   [ 7  8]]]
+
+ [[[10 20]
+   [30 40]]
+
+  [[50 60]
+   [70 80]]]]
+
+3D array as Planes:
+[[[[ 1  2]
+   [ 3  4]]
+
+  [[10 20]
+   [30 40]]]
+
+ [[[ 5  6]
+   [ 7  8]]
+
+  [[50 60]
+   [70 80]]]]
+
+3D array as Rows:
+[[[[ 1  2]
+   [10 20]]
+
+  [[ 3  4]
+   [30 40]]]
+
+ [[[ 5  6]
+   [50 60]]
+
+  [[ 7  8]
+   [70 80]]]]
+
+3D array as Columns: 
+[[[[ 1 10]
+   [ 2 20]]
+
+  [[ 3 30]
+   [ 4 40]]]
+
+ [[[ 5 50]
+   [ 6 60]]
+
+  [[ 7 70]
+   [ 8 80]]]]
+```
 
 
 ### ▶️ Splitting Numpy arrays
