@@ -402,9 +402,6 @@ new_arr = np.resize(arr, (4, 4))   # returns new array
 print(f"New Resized Array : {new_arr}")
 ```
 
-arr = np.array([[1, 2], [3, 4]])
-print("Original:\n", arr)
-
 *Output:*
 ```html
 Array : [ 1 2 3 4 5 6 7 8]
