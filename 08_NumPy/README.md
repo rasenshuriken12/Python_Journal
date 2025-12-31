@@ -42,11 +42,12 @@ import numpy as np
 
 x = np.array([1, 2])
 print(x)
+
 print("Shape:", x.shape)   # shape returns tuple with 1 element (col,). (2,) is a TUPLE! & (2) is just an integer 2
-print(x.ndim, "D Array with ", shape[0], "elements")   # Dimension
+print(x.ndim, "D Array with ", x.shape[0], "elements")   # Dimension
+print(f"Total elements: {x.size}") 
 
 print("Array type: ", type(x))  
-
 print("Shape returns: ", type(x.shape))
 ```
 
@@ -66,29 +67,33 @@ Shape returns: <class 'tuple'>
 import numpy as np
 
 y = np.array([[1, 2, 3], [4, 5, 6]])
-print(y.ndim, "D Array")   # Dimension
 print(y)
+
 print("Shape:", y.shape)   # shape returns tuple with 2 elements (row, col).
+print(y.ndim, "D Array with ", y.shape[0], "rows &", y.shape[1], "columns")   # Dimension
+print(f"Total elements: {y.size}") 
 ```
 
 *Output:*
 ```html
-2D Array
  [[1 2 3]
  [4 5 6]]
 Shape: (2, 3)
+2D Array with 2 rows & 3 columns
 ```
 
-🔸 Creating a 3D array
+🔸 Creating a 3D array (Tensors)
 
 *Code:*
 ```python
 import numpy as np
 
 z = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [3, 6, 9]]])
-print(z.ndim, "D Array")   # Dimension
 print(z)
+
 print("Shape:", z.shape)    # shape returns tuple with 3 elements (p, row, col).
+print(z.ndim, "D Array with ", z.shape[0], "depth", z.shape[1], "rows and", z.shape[2], "columns")   # Dimension
+print(f"Total elements: {z.size}") 
 ```
 
 *Output:*
