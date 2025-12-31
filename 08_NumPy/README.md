@@ -483,3 +483,17 @@ print("Building areas:", np_Area)
 Electricity consumption: [ 4456.67 31298.   23567.9  12563.5 ]
 Building areas: [ 456.67 1298.   3567.9  2563.5 ]
 ```
+
+*Code:*
+```python
+# Calculate the Energy Efficiency Index (EEI) by element-wise division
+EEI = np_Elec / np_Area
+
+# Print the EEI value for the 3rd building (index 2)
+print("EEI for building 3:", EEI[2])
+```
+
+*Output:*
+```html
+EEI for building 3: 6.605538271812551
+```
