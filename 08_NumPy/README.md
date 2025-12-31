@@ -396,18 +396,20 @@ arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
 print(f"Array : {arr}")
 
 arr.resize(2, 4)   # Permanently reshaped. Make a copy to preserve original by arr.copy()
-print(f"Resized Array : \n{arr}")
+print(f"\nResized Array : \n{arr}")
 
 new_arr = np.resize(arr, (4, 2))   # returns new array
-print(f"New Resized Array : \n{new_arr}")
+print(f"\nNew Resized Array : \n{new_arr}")
 ```
 
 *Output:
 ```html
 Array : [ 1 2 3 4 5 6 7 8]
+
 Resized 2D Array :
 [[ 1  2  3  4]
  [ 5  6  7  8]]
+
 New Resized Array :
 [[1 2]
  [3 4]
@@ -424,12 +426,13 @@ print(f"Array : {arr}")
 
 arr_copy = arr.copy()   # Make a copy to preserve original
 arr_copy.resize(3, 3)   # Required values 9, existing values 4
-print(f"Resized 2D Array : {arr_copy}")   # fills with zeros!
+print(f"\nResized 2D Array : {arr_copy}")   # fills with zeros!
 ```
 
 *Output:*
 ```html
 Array : [ 1 2 3 4 5 6 7 8]
+
 Resized 3D Array :
 [[ 1  2  3]
  [ 4  0  0]
