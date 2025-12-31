@@ -628,6 +628,19 @@ print(np.stack((x, y), axis=3))
 
 ### ▶️ Splitting Numpy arrays
 
+*Code:*
+```python
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5, 6])
+res = np.array_split(arr, 2)
+print(res)
+```
+
+*Output:*
+```html
+[array([1, 2, 3]), array(43, 5, 6])
+```
+
 ### ▶️ Boadcasting 
 
 
