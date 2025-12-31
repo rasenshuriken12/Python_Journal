@@ -247,24 +247,24 @@ print(arr_range)
 
 ### ▶️ Numpy Array Indexing
 
-🔸 Using 1d Array
+🔸 In 1d Array
 
 *Code:*
 ```python
 import numpy as np
 
 arr1d = np.array([10, 20, 30, 40, 50])
-print("Single element access:", arr1d[3])  
-print("Negative indexing:", arr1d[-4])    # Negative indexing
+print("Single element access:", arr1d[0])  
+print("Negative indexing:", arr1d[-4])    # Negative indexing for arr1d[1]
 ```
 
 *Output:*
 ```html
-Single element access: 40
+Single element access: 10
 Negative indexing: 20
 ```
 
-🔸 Using 2d Array
+🔸 In 2d Array
 
 *Code:*
 ```python
@@ -323,7 +323,7 @@ Elements greater than 5 :  [6 7 8 9]
 import numpy as np 
 
 arr = np.array([1, 2, 3, 4, 5])
-arr[1:3] = 5
+arr[1:3] = 5   # array indexing starts from 0
 print(arr)
 ```
 
@@ -463,6 +463,8 @@ Resized 3D Array :
 
 
 ### ▶️ Stacking Numpy array
+
+🔸 Stacking 1D arrays 
 
 *Code:*
 ```python
