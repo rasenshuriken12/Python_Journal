@@ -333,6 +333,13 @@ print(arr)
 ```
 
 
+| Operation	| Purpose	| Changes Memory?	| Changes Data?	| Returns |
+|--|--|--|--|--|
+| Reshape	| Change shape only	| No (view) |	No	New view of same data |
+| Resize |	Change shape and size	| Yes (new array)	| Can add/remove data	New array |
+| Stack	| Combine arrays	| Yes	| No	New combined array |
+| Split |	Divide arrays	| No (views) |	No	List of sub-arrays |
+
 ### ▶️ Reshaping Numpy array
 
 🔸 Conversion of 1-D array to 2-D array
