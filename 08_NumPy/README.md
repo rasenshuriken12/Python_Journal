@@ -30,7 +30,7 @@
 
 <br>
 
-▶️ Creating a Numpy Array 
+### ▶️ Creating a Numpy Array 
 
 🔸 Creating a 1D array (Vector)
 
@@ -245,7 +245,7 @@ print(arr_range)
 > - **Includes the `stop` value** by default.
 
 
-▶️ Numpy Array Indexing
+### ▶️ Numpy Array Indexing
 
 🔸 Using 1d Array
 
@@ -280,7 +280,7 @@ Multidimensional array access: 7
 ```
 
 
-▶️ Numpy Array Slicing 
+### ▶️ Numpy Array Slicing 
 
 *Code:*
 ```python
@@ -333,7 +333,7 @@ print(arr)
 ```
 
 
-▶️ Reshaping Numpy array
+### ▶️ Reshaping Numpy array
 
 🔸 Conversion of 1-D array to 2-D array
 
@@ -415,7 +415,7 @@ Reshaped 1D Array :
 ```
 
 
-▶️ Resizing Numpy array
+### ▶️ Resizing Numpy array
 
 *Code:*
 ```python
