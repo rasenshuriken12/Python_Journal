@@ -28,8 +28,6 @@
 | Mathematical Operations | Requires loops to handle arithmetic items	| Directly handles arithmetic items by Vectorized operations (no loops) |
 | Example Operation |	[1,2,3] + [4,5,6] → concatenation	| array([1,2,3]) + array([4,5,6]) → element-wise addition |
 
-
-
 <br>
 
 ▶️ Creating a Numpy Array 
@@ -38,7 +36,9 @@
 
 *Code:*
 ```python
-import numpy as np
+# Import the NumPy library to use its functions and features.
+import numpy as np    # By using the alias np, you can reference Numpy functions and classes more conveniently in your code.
+
 
 x = np.array([1, 2])
 print(x)
