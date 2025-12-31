@@ -343,85 +343,48 @@ print(arr)
 
 ### ▶️ Reshaping Numpy array
 
-🔸 Conversion of 1-D array to 2-D array
-
 *Code:*
 ```python
 import numpy as np
 
-array = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
-print(f"Array : {array}")
+arr = np.arange(12)  # [0, 1, 2, ..., 11]
+print("Original array:", arr)
+print("Original shape:", arr.shape)  # (12,)
 
-# converting 1-D array to 2-D array
-reshaped = array.reshape((4, 4))  # rows, columns
+# Reshape to 2D
+reshaped_2d = arr.reshape(3, 4)
+print("\nReshaped 1D Array to 2D Array")
+print(reshaped_2d)
+print("Reshaped shape:", reshaped_2d.shape)  # (3, 4)
 
-print("Reshaped 2D Array : ")
-print(reshaped)
+# Reshape to 3D
+reshaped_3d = arr.reshape(2, 3, 2)
+print("\nReshaped 1D Array to 3D Array:")
+print(reshaped_3d)
+print("Reshaped shape:", reshaped_3d.shape)  # (2, 3, 2)
 ```
 
 *Output:*
 ```html
-Array : [ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16]
-Reshaped 2D Array :
-[[ 1  2  3  4]
- [ 5  6  7  8]
- [ 9 10 11 12]
- [13 14 15 16]]
+Original array: [ 0  1  2  3  4  5  6  7  8  9 10 11]
+Original shape: (12,)
+
+Reshaped 1D Array to 2D Array:
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]]
+Reshaped shape: (3, 4)
+
+Reshaped 1D Array to 3D Array:
+[[[ 0  1]
+  [ 2  3]
+  [ 4  5]]
+
+ [[ 6  7]
+  [ 8  9]
+  [10 11]]]
+Reshaped shape: (2, 3, 2)
 ```
-
-🔸 Conversion of 1-D array to 3-D array
-*Code:*
-```python
-import numpy as np
-
-array = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
-print(f"Array : {array}")
-
-reshaped = array.reshape((2, 2, 4))  # Ensure 2*2*4 = 16
-
-print("Reshaped 3D Array : ")
-print(reshaped)
-```
-
-*Output:*
-```html
-Array : [ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16]
-Reshaped 3D Array :
-[[[ 1  2  3  4]
-  [ 5  6  7  8]]
-
- [[ 9 10 11 12]
-  [13 14 15 16]]]
-```
-
-🔸 Conversion of 2-D array to 1-D array
-*Code:*
-```python
-import numpy as np
-
-array = np.array([[1, 2, 3],
-                 [4, 5, 6],
-                 [7, 8, 9]])
-
-print("2D Array : ")
-print(array)
-
-reshaped = array.reshape((9))
-
-print("Reshaped 1D Array : ")
-print(reshaped)
-```
-
-*Output:*
-```html
-2D Array : 
-[[1 2 3]
- [4 5 6]
- [7 8 9]]
-Reshaped 1D Array : 
-[[1 2 3 4 5 6 7 8 9]]
-```
-
 
 ### ▶️ Resizing Numpy array
 
@@ -633,7 +596,7 @@ print(np.stack((x, y), axis=3))
 import numpy as np
 
 arr = np.arange(6)       # Creates an array of values 0 - 5
-res = np.split(arr, 2)   # divides an array into equal-sized subarrays
+res = np.split(arr, 2)   # Splits into equal-sized subarrays
 print(res)
 ```
 
@@ -647,7 +610,7 @@ print(res)
 import numpy as np
 
 arr = np.arange(10)   
-res = np.array_split(arr, 3)   # works like split(), but it allows uneven splitting
+res = np.array_split(arr, 3)   # Allows uneven splitting
 print(res)
 ```
 
