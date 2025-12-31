@@ -631,14 +631,29 @@ print(np.stack((x, y), axis=3))
 *Code:*
 ```python
 import numpy as np
-arr = np.arange(6)
-res = np.array_split(arr, 2)
+
+arr = np.arange(6)       # Creates an array of values 0 - 5
+res = np.split(arr, 2)   # divides an array into equal-sized subarrays
 print(res)
 ```
 
 *Output:*
 ```html
-[array([1, 2, 3]), array(43, 5, 6])
+[array([0, 1, 2]), array([3, 4, 5])]
+```
+
+*Code:*
+```python
+import numpy as np
+
+arr = np.arange(10)   
+res = np.array_split(arr, 3)   # works like split(), but it allows uneven splitting
+print(res)
+```
+
+*Output:*
+```html
+[array([0, 1, 2, 3]), array([4, 5, 6]), array([7, 8, 9])
 ```
 
 ### ▶️ Boadcasting 
@@ -649,6 +664,8 @@ print(res)
 
 *Code:*
 ```python
+import numpy as np
+
 # List of Electricity consumption values and Building areas
 Elec = [4456.67, 31298, 23567.9, 12563.5]
 Area = [456.67, 1298, 3567.9, 2563.5]
