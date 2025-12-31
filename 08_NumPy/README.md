@@ -43,7 +43,7 @@ import numpy as np
 x = np.array([1, 2])
 print(x.ndim, "D Array")   # Dimension
 print(x)
-print("Shape:", x.shape)
+print("Shape:", x.shape)   # (2,) ← This is a TUPLE!
 
 array_type = type(x)
 print(array_type)
