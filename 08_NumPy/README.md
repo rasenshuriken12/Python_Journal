@@ -24,7 +24,7 @@
 | Broadcasting	| Not supported	| Fully Supported |
 | Multi-dimensional | Nested lists (inefficient) | Native support (efficient) |
 | Indexing & Slicing	| Basic	| Advanced slicing & masking |
-| Use in ML / Data Science	| Rarely used	| Industry standard |
+| Use in Data Science /	ML | Rarely used	| Industry standard |
 | Example Operation |	[1,2,3] + [4,5,6] → concatenation	| array([1,2,3]) + array([4,5,6]) → element-wise addition |
 
 
