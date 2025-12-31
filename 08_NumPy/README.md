@@ -40,9 +40,9 @@
 import numpy as np
 
 x = np.array([1, 2])
-print(x.ndim, "D Array")
+print(x.ndim, "D Array")   # Dimension
 print(x)
-print("Shape:", x.shape)
+print("Shape:", x.shape)  
 ```
 
 *Output:*
@@ -59,9 +59,9 @@ Shape: (2,)
 import numpy as np
 
 y = np.array([[1, 2, 3], [4, 5, 6]])
-print(y.ndim, "D Array")
+print(y.ndim, "D Array")   # Dimension
 print(y)
-print("Shape:", y.shape)
+print("Shape:", y.shape)   # no. of Rows, no. of Columns
 ```
 
 *Output:*
@@ -79,9 +79,9 @@ Shape: (2, 3)
 import numpy as np
 
 z = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [3, 6, 9]]])
-print(z.ndim, "D Array")
+print(z.ndim, "D Array")   # Dimension
 print(z)
-print("Shape:", z.shape)
+print("Shape:", z.shape)   # no. of Rows, no. of Columns
 ```
 
 *Output:*
